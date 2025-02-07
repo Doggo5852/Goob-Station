@@ -1,9 +1,9 @@
-#TODO: Someone should probably move the ore vein prototypes into their own file, or otherwise split this up in some way. This should not be 2.5k lines long.
+#TODO: Someone should probably move the ore vein prototypes into their own file, or otherwise split this up in some way. This should not be 1.5k lines long.
 
 # Anyway
 # See WallRock variants for the remappings.
 
-# Asteroid rock
+#Asteroid rock
 - type: entity
   id: AsteroidRock
   parent: BaseWall
@@ -670,7 +670,6 @@
     - type: Gatherable
       toolWhitelist:
         tags:
-          - Pickaxe
     - type: Damageable
       damageContainer: StructuralInorganic
       damageModifierSet: Metallic
@@ -678,8 +677,23 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 150
+            damage: 80
           behaviors:
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 3
+                  max: 8
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetGlass1:
+                  min: 1
+                  max: 4
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetPlastic1:
+                  min: 1
+                  max: 2
             - !type:DoActsBehavior
               acts: ["Destruction"]
     - type: IconSmooth
