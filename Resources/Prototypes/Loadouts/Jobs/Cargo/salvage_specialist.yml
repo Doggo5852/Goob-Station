@@ -25,3 +25,17 @@
   id: SalvageBoots
   equipment:
     shoes: ClothingShoesBootsSalvage
+
+
+## RimStation loadouts
+
+- type: loadout
+  id: SalvagerMedieval
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvager
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsJack
+    outerClothing: ClothingOuterArmorVest
+    head: ClothingHeadHelmetSecurity
+    suitstorage: WeaponMeleeClaymore
+

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: [ClothingBackpackDuffel, BaseCentcommContraband]
   id: ClothingBackpackDuffelBlueshield
   name: blueshield duffel bag

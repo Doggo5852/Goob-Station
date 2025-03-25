@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: ActionOpenRadioImplant
   name: Open Radio Implant
   description: Opens the bluespace key compartment of the radio implant embedded in your skull.

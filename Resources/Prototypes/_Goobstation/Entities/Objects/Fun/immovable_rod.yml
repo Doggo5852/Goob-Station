@@ -1,4 +1,4 @@
-﻿#Goobstation - add a skibidi toilet as an immovable rod sprite
+#Goobstation - add a skibidi toilet as an immovable rod sprite
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodSkibidi

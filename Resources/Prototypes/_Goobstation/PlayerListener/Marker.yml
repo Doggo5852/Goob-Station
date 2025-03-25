@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: DormNotifierMarker
   parent: MarkerBase
   name: Dorm Notifier Marker

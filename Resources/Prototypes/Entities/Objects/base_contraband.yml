@@ -1,4 +1,4 @@
-﻿# non-stealth syndicate stuff
+# non-stealth syndicate stuff
 - type: entity
   id: BaseSyndicateContraband
   abstract: true

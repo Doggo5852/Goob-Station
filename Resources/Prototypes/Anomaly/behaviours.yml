@@ -34,45 +34,45 @@
   id: FullSafe
   pulseFrequencyModifier: 3
   pulsePowerModifier: 0.5
-  earnPointModifier: 0.05
+  earnPointModifier: 0.1
   description: anomaly-behavior-safe
 
 - type: anomalyBehavior
   id: Slow
   pulseFrequencyModifier: 2
-  earnPointModifier: 0.5
+  earnPointModifier: 1
   description: anomaly-behavior-slow
 
 - type: anomalyBehavior
   id: Light
   pulsePowerModifier: 0.5
-  earnPointModifier: 0.5
+  earnPointModifier: 1
   description: anomaly-behavior-light
 
 # Balanced x1 point production
 
 - type: anomalyBehavior
   id: Balanced
-  earnPointModifier: 1
+  earnPointModifier: 2
   description: anomaly-behavior-balanced
 
 - type: anomalyBehavior
   id: DelayedForce
-  earnPointModifier: 1.15
+  earnPointModifier: 2.3
   description: anomaly-behavior-delayed-force
   pulseFrequencyModifier: 2
   pulsePowerModifier: 2
   
 - type: anomalyBehavior
   id: Rapid
-  earnPointModifier: 1.15
+  earnPointModifier: 2.3
   description: anomaly-behavior-rapid
   pulseFrequencyModifier: 0.5
   pulsePowerModifier: 0.5
 
 - type: anomalyBehavior
   id: BalancedSecret
-  earnPointModifier: 1.2
+  earnPointModifier: 2.4
   description: anomaly-behavior-secret
   components:
   - type: SecretDataAnomaly
@@ -81,7 +81,7 @@
 
 - type: anomalyBehavior
   id: Reflect
-  earnPointModifier: 1.1
+  earnPointModifier: 2.2
   particleSensivity: 0.5
   description: anomaly-behavior-reflect
   components:
@@ -92,13 +92,13 @@
 
 - type: anomalyBehavior
   id: NonSensivity
-  earnPointModifier: 0.8
+  earnPointModifier: 1.6
   particleSensivity: 0.5
   description: anomaly-behavior-nonsensivity
   
 - type: anomalyBehavior
   id: Sensivity
-  earnPointModifier: 1.2
+  earnPointModifier: 2.4
   particleSensivity: 1.5
   description: anomaly-behavior-sensivity
 
@@ -106,19 +106,19 @@
 
 - type: anomalyBehavior
   id: Fast
-  earnPointModifier: 1.9
+  earnPointModifier: 2.8
   pulseFrequencyModifier: 0.5
   description: anomaly-behavior-fast
 
 - type: anomalyBehavior
   id: Strenght
   pulsePowerModifier: 1.5
-  earnPointModifier: 1.4
+  earnPointModifier: 2.8
   description: anomaly-behavior-strenght
 
 - type: anomalyBehavior
   id: Inconstancy
-  earnPointModifier: 1.7
+  earnPointModifier: 4
   description: anomaly-behavior-inconstancy
   components:
   - type: ShuffleParticlesAnomaly
@@ -127,7 +127,7 @@
 
 - type: anomalyBehavior
   id: InconstancyParticle
-  earnPointModifier: 1.8
+  earnPointModifier: 4
   description: anomaly-behavior-inconstancy
   components:
   - type: ShuffleParticlesAnomaly
@@ -136,7 +136,7 @@
 
 - type: anomalyBehavior
   id: Jumping
-  earnPointModifier: 1.8
+  earnPointModifier: 4
   description: anomaly-behavior-moving
   components:
   - type: ChaoticJump
@@ -148,7 +148,7 @@
 
 - type: anomalyBehavior
   id: FullUnknown
-  earnPointModifier: 1.9
+  earnPointModifier: 6
   description: anomaly-behavior-secret
   components:
   - type: SecretDataAnomaly
@@ -157,7 +157,7 @@
 
 - type: anomalyBehavior
   id: Invisibility
-  earnPointModifier: 1.6
+  earnPointModifier: 8
   description: anomaly-behavior-invisibility
   components:
   - type: Stealth
@@ -171,7 +171,7 @@
 
 - type: anomalyBehavior
   id: JumpingUnknown
-  earnPointModifier: 1.9
+  earnPointModifier: 6
   description: anomaly-behavior-moving
   components:
   - type: ChaoticJump
@@ -186,7 +186,7 @@
 
 - type: anomalyBehavior
   id: FastUnknown
-  earnPointModifier: 1.9
+  earnPointModifier: 6
   pulseFrequencyModifier: 0.5
   description: anomaly-behavior-fast
   components:
@@ -196,7 +196,7 @@
 
 - type: anomalyBehavior
   id: InconstancyParticleUnknown
-  earnPointModifier: 1.95
+  earnPointModifier: 6
   description: anomaly-behavior-inconstancy
   components:
   - type: ShuffleParticlesAnomaly
@@ -208,7 +208,7 @@
 
 - type: anomalyBehavior
   id: InvisibilityJumping
-  earnPointModifier: 1.95
+  earnPointModifier: 6
   description: anomaly-behavior-invisibility
   components:
   - type: ChaoticJump

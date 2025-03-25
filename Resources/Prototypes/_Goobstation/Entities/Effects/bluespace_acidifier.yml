@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: Acidifier
   id: BluespaceLifeline
   name: bluespace lifeline

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: SpawnPointGhostBlob
   name: Blob
   suffix: DONTMAP, spawner
@@ -55,11 +55,11 @@
       !type:BlobTileCosts
       core: 0
       invalid: 0
-      resource: 60
-      factory: 80
+      resource: 30
+      factory: 40
       node: 50
-      reflective: 15
-      strong: 15
+      reflective: 60
+      strong: 25
       normal: 6
 #      storage: 50
 #      turret: 75
@@ -294,7 +294,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 150
+            damage: 120
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -322,7 +322,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 100
+            damage: 90
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]

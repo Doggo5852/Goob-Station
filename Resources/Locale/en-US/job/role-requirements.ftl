@@ -1,4 +1,4 @@
-﻿role-timer-department-insufficient = You require [color=yellow]{$time}[/color] more playtime in the [color={$departmentColor}]{$department}[/color] department to play this role.
+role-timer-department-insufficient = You require [color=yellow]{$time}[/color] more playtime in the [color={$departmentColor}]{$department}[/color] department to play this role.
 role-timer-department-too-high = You require [color=yellow]{$time}[/color] less playtime in the [color={$departmentColor}]{$department}[/color] department to play this role. (Are you trying to play a trainee role?)
 role-timer-overall-insufficient = You require [color=yellow]{$time}[/color] more overall playtime to play this role.
 role-timer-overall-too-high = You require [color=yellow]{$time}[/color] less overall playtime to play this role. (Are you trying to play a trainee role?)

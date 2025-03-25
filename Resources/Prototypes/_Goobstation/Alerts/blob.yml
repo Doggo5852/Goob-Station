@@ -1,4 +1,4 @@
-﻿- type: alert
+- type: alert
   id: BlobResource
   icons:
   - sprite: /Textures/_Goobstation/Blob/Interface/Alerts/blob_resource.rsi

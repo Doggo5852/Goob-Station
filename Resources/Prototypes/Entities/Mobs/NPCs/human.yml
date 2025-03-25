@@ -12,6 +12,7 @@
     factions:
     - NanoTrasen
 
+
 - type: entity
   name: salvager
   parent: BaseMobHuman
@@ -23,6 +24,23 @@
     - type: Loadout
       prototypes:
         - SalvageSpecialistGear
+    - type: InputMover
+    - type: MobMover
+    - type: HTN
+      rootTask:
+        task: SimpleHumanoidHostileCompound
+
+- type: entity
+  name: salvager
+  parent: BaseMobHuman
+  id: MobSalvagerMedieval
+  components:
+    - type: NpcFactionMember
+      factions:
+        - Syndicate
+    - type: Loadout
+      prototypes:
+        - SalvagerMedieval
     - type: InputMover
     - type: MobMover
     - type: HTN

@@ -1,4 +1,4 @@
-﻿comp-space-heater-ui-thermostat = Thermostat:
+comp-space-heater-ui-thermostat = Thermostat:
 comp-space-heater-ui-mode = Mode
 comp-space-heater-ui-status-disabled = Off
 comp-space-heater-ui-status-enabled = On

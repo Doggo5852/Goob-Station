@@ -1,4 +1,4 @@
-﻿# Rules
+# Rules
 
 ui-rules-header = Goob Station Official Server Rules
 ui-rules-header-rp = Goob Station Roleplay Official Server Rules
