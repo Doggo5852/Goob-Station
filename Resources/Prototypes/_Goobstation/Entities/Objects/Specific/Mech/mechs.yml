@@ -203,16 +203,19 @@
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
-    damage:
+    damage: #Rimstation
       types:
-        Blunt: 25
-        Structural: 180
+        Blunt: 15
+        Structural: 120
   - type: CanMoveInAir
   - type: NpcFactionMember
     factions:
     - NanoTrasen
   - type: MobState
   - type: MovementAlwaysTouching
+  - type: Repairable #Rimstation
+    fuelCost: 50
+    doAfterDelay: 8
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
     baseSprintSpeed: 3.9 #Rimstation
@@ -260,7 +263,7 @@
     brokenState: durand-broken
     mechToPilotDamageMultiplier: 0.05
     airtight: true
-    maxIntegrity: 600
+    maxIntegrity: 650
     pilotWhitelist:
       components:
         - HumanoidAppearance
@@ -268,10 +271,10 @@
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
-    damage:
+    damage: #Rimstation
       types:
-        Blunt: 40
-        Structural: 220
+        Blunt: 65
+        Structural: 280
   - type: MovementSpeedModifier
     baseWalkSpeed: 1.6
     baseSprintSpeed: 2.5
@@ -285,7 +288,7 @@
   - type: MobState
   - type: Repairable
     fuelCost: 30
-    doAfterDelay: 15
+    doAfterDelay: 20
   - type: StaticPrice
     price: 5000
   - type: Tag

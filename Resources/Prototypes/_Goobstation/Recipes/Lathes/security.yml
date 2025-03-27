@@ -105,16 +105,16 @@
   id: WeaponMechCombatUltraRifle
   result: WeaponMechCombatUltraRifle
   category: MechWeapons
-  completetime: 10
+  completetime: 250
   materials:
-    Steel: 1000
-    Plastic: 200
+    Steel: 6000
+    Plastic: 3000
 
 - type: latheRecipe
   id: WeaponMechCombatShotgun
   result: WeaponMechCombatShotgun
   category: MechWeapons
-  completetime: 10
+  completetime: 200
   materials:
     Steel: 1600
     Plastic: 550
@@ -123,7 +123,7 @@
   id: WeaponMechCombatShotgunIncendiary
   result: WeaponMechCombatShotgunIncendiary
   category: MechWeapons
-  completetime: 10
+  completetime: 140
   materials:
     Steel: 1500
     Plastic: 800
@@ -153,9 +153,9 @@
   id: WeaponMechCombatMissileRack8
   result: WeaponMechCombatMissileRack8
   category: MechWeapons
-  completetime: 10
+  completetime: 500 #Rimstation
   materials:
-    Steel: 2500
+    Steel: 6000 #Rimstation
     Glass: 1500
     Plastic: 750
 

@@ -211,7 +211,7 @@
 - type: entity
   id: WeaponMechCombatUltraRifle
   name: Ultra AC-2
-  description: Mounted carbine, firing incendiary cartridges.
+  description: Mounted carbine, often found on highly advanced combat mechs. #Rimstation
   suffix: Mech Weapon, Gun, Combat, Rifle
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
