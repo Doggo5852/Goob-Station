@@ -43,7 +43,7 @@
   id: MechRipley2
   parent: [ BaseMech, IndustrialMech, BaseCargoContraband ]
   name: Ripley APLU MK-II
-  description: The "MK-II" has a pressurized cabin for space operations, but the added weight has slowed it down.
+  description: MK-II prioritised pilot survivability while upgrading its mobility and capacity. This is the mech to satisfy all of your powerloading needs.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -62,7 +62,7 @@
     baseState: ripleymkii
     openState: ripleymkii-open
     brokenState: ripleymkii-broken
-    mechToPilotDamageMultiplier: 0.4
+    mechToPilotDamageMultiplier: 0.6
     airtight: true
     pilotWhitelist:
       components:
@@ -75,8 +75,8 @@
       types:
         Blunt: 20
   - type: MovementSpeedModifier
-    baseWalkSpeed: 1
-    baseSprintSpeed: 2
+    baseWalkSpeed: 2
+    baseSprintSpeed: 5
   - type: Damageable
     damageModifierSet: MediumArmorNT
   - type: StaticPrice
@@ -174,7 +174,7 @@
   id: MechGygax
   parent: [ BaseMech, CombatMech, BaseRestrictedContraband ]
   name: Gygax MK. II
-  description: Armor has been replaced for a far superior and lighter material allowing it to move faster at the cost of endurance. Canopy is filled with reinforced glass, good luck killing the pilot. 
+  description: Armor has been replaced for a far superior and lighter material allowing it to move faster at the cost of endurance. It is more than enough to withstand a landmine. The canopy is filled with reinforced glass, good luck killing the pilot. 
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -195,7 +195,7 @@
     brokenState: gygax-broken
     mechToPilotDamageMultiplier: 0.1 #Rimstation
     airtight: true
-    maxIntegrity: 150
+    maxIntegrity: 180
     pilotWhitelist:
       components:
         - HumanoidAppearance
@@ -211,6 +211,7 @@
   - type: NpcFactionMember
     factions:
     - NanoTrasen
+  - type: MobState
   - type: MovementAlwaysTouching
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
@@ -238,7 +239,7 @@
   id: MechDurand
   parent: [ BaseMech, CombatMech, BaseRestrictedContraband ]
   name: Durand
-  description: Slow but well armored, there isn't much hope in stopping it aside from waiting until its ammunition runs out.
+  description: Durand had pilot survivability at the top of the bucket list, a mouse could survive a barrage of missiles inside of it. Its armor completely isolates outside sounds and is very durable at the cost of mobility.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -259,7 +260,7 @@
     brokenState: durand-broken
     mechToPilotDamageMultiplier: 0.05
     airtight: true
-    maxIntegrity: 550
+    maxIntegrity: 600
     pilotWhitelist:
       components:
         - HumanoidAppearance
@@ -272,12 +273,16 @@
         Blunt: 40
         Structural: 220
   - type: MovementSpeedModifier
-    baseWalkSpeed: 1.5
-    baseSprintSpeed: 2.3
+    baseWalkSpeed: 1.6
+    baseSprintSpeed: 2.5
   - type: Damageable
     damageModifierSet: MediumArmorNT
   - type: CanMoveInAir
   - type: MovementAlwaysTouching
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+  - type: MobState
   - type: Repairable
     fuelCost: 30
     doAfterDelay: 15
