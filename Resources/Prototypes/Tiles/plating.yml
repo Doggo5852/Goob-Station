@@ -11,6 +11,7 @@
     collection: FootstepPlating
   friction: 0.3
   heatCapacity: 10000
+  indestructible: true
 
 - type: tile
   id: PlatingDamaged
@@ -30,6 +31,7 @@
     collection: FootstepPlating
   friction: 0.3
   heatCapacity: 10000
+  indestructible: true
 
 - type: tile
   id: PlatingBurnt
@@ -44,6 +46,7 @@
     collection: FootstepPlating
   friction: 0.3
   heatCapacity: 10000
+  indestructible: true
 
 - type: tile
   id: PlatingAsteroid
