@@ -21,7 +21,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 750 #Rimstation
+  cost: 500 #Rimstation
   recipeUnlocks:
   - AnomalyScanner
   - AnomalyLocator
@@ -38,7 +38,7 @@
     state: display
   discipline: Experimental
   tier: 1
-  cost: 1000 #Rimstation
+  cost: 750 #Rimstation
   recipeUnlocks:
   - NodeScanner
   - BorgModuleArtifact
@@ -53,7 +53,7 @@
     state: display
   discipline: Experimental
   tier: 1
-  cost: 250 #Rimstation
+  cost: 100 #Rimstation
   recipeUnlocks:
   - TechDiskComputerCircuitboard
 
@@ -65,7 +65,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 2000 #Rimstation
+  cost: 1500 #Rimstation
   recipeUnlocks:
   - ClothingShoesBootsMagSci
   - ClothingShoesBootsMoon
@@ -78,7 +78,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 7500 #Rimstation
+  cost: 5000 #Rimstation
   recipeUnlocks:
   - WeaponGauntletGorilla
 
@@ -92,7 +92,7 @@
     state: icon
   discipline: Experimental
   tier: 2
-  cost: 2500 #Rimstation
+  cost: 2000 #Rimstation
   recipeUnlocks:
   - ArtifactCrusherMachineCircuitboard
 
@@ -104,7 +104,7 @@
     state: base
   discipline: Experimental
   tier: 2
-  cost: 8000 #Rimstation
+  cost: 5000 #Rimstation
   recipeUnlocks:
   - WeaponPistolCHIMP
   - AnomalySynchronizerCircuitboard
@@ -120,7 +120,7 @@
     state: base
   discipline: Experimental
   tier: 2
-  cost: 2500 #Rimstation
+  cost: 2000 #Rimstation
   recipeUnlocks:
   - WeaponParticleDecelerator
   - HoloprojectorField

@@ -7,7 +7,7 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 2500 #Rimstation
+  cost: 1500 #Rimstation
   recipeUnlocks:
   - WeaponPlasmaRifle
 
@@ -21,7 +21,7 @@
     state: gygax
   discipline: Arsenal
   tier: 2
-  cost: 20000 #Rimstation
+  cost: 18000 #Rimstation
   recipeUnlocks:
   - GygaxHarness
   - GygaxArmor

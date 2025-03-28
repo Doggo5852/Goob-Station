@@ -53,7 +53,7 @@
     state: base
   discipline: Industrial
   tier: 1
-  cost: 10000
+  cost: 7500
   recipeUnlocks:
   - FlatpackerMachineCircuitboard
 
@@ -65,7 +65,7 @@
     state: building
   discipline: Industrial
   tier: 1
-  cost: 10000
+  cost: 7500
   recipeUnlocks:
   - AutolatheHyperConvectionMachineCircuitboard
   - ProtolatheHyperConvectionMachineCircuitboard
@@ -80,7 +80,7 @@
     state: portgen0
   discipline: Industrial
   tier: 1
-  cost: 2500 #Rimstation
+  cost: 2000 #Rimstation
   recipeUnlocks:
   - PortableGeneratorPacmanMachineCircuitboard
   - PortableGeneratorSuperPacmanMachineCircuitboard
@@ -98,7 +98,7 @@
     state: freezerOff
   discipline: Industrial
   tier: 1
-  cost: 3000 #Rimstation
+  cost: 2000 #Rimstation
   recipeUnlocks:
   - ThermomachineFreezerMachineCircuitBoard
   - GasRecyclerMachineCircuitboard
@@ -111,7 +111,7 @@
     state: ripley
   discipline: Industrial
   tier: 1
-  cost: 5000 #Rimstation
+  cost: 4500 #Rimstation
   recipeUnlocks:
   - RipleyHarness
   - RipleyLArm
@@ -147,7 +147,7 @@
     state: icon
   discipline: Industrial
   tier: 2
-  cost: 5000 #Rimstation
+  cost: 4000 #Rimstation
   recipeUnlocks:
   - HellfireFreezerMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard
@@ -163,7 +163,7 @@
     state: icon
   discipline: Industrial
   tier: 2
-  cost: 12500 #Rimstation
+  cost: 15000 #Rimstation
   recipeUnlocks:
     - WelderExperimental
     - PowerDrill
@@ -178,7 +178,7 @@
     state: handdrill
   discipline: Industrial
   tier: 2
-  cost: 10000 #Rimstation
+  cost: 5000 #Rimstation
   recipeUnlocks:
     - OreBagOfHolding
     - MiningDrillDiamond
@@ -193,7 +193,7 @@
     state: ripleymkii
   discipline: Industrial
   tier: 2
-  cost: 7500 #Rimstation
+  cost: 7000 #Rimstation
   recipeUnlocks:
   - RipleyMKIIHarness
   - RipleyUpgradeKit
@@ -208,7 +208,7 @@
     state: clarke
   discipline: Industrial
   tier: 2
-  cost: 550 #Rimstation
+  cost: 600 #Rimstation
   recipeUnlocks:
   - ClarkeHarness
   - ClarkeHead
@@ -230,7 +230,7 @@
     state: holding
   discipline: Industrial
   tier: 3
-  cost: 20000 #Rimstation
+  cost: 25000 #Rimstation
   recipeUnlocks:
   - ClothingBackpackHolding
   - ClothingBackpackSatchelHolding

@@ -8,7 +8,7 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 1200 #Rimstation
+  cost: 1100 #Rimstation
   recipeUnlocks:
   - WeaponProtoKineticAccelerator
   - ShuttleGunKineticCircuitboard
@@ -23,7 +23,7 @@
     state: incendiarydisplay
   discipline: Arsenal
   tier: 1
-  cost: 7500 #Rimstation
+  cost: 6500 #Rimstation
   recipeUnlocks:
   - BoxShotgunIncendiary
   - MagazineRifleIncendiary
@@ -44,7 +44,7 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 3500 #Rimstation
+  cost: 3200 #Rimstation
   recipeUnlocks:
   - WeaponLaserCarbine
   - WeaponMechCombatFiredartLaser # Goobstation
@@ -57,7 +57,7 @@
     state: beanbag
   discipline: Arsenal
   tier: 1
-  cost: 750 #Rimstation
+  cost: 250 #Rimstation
   recipeUnlocks:
   - MagazineShotgunBeanbag
   - BoxShellTranquilizer
@@ -73,7 +73,7 @@
     state: uranium
   discipline: Arsenal
   tier: 1
-  cost: 15000 #Rimstation
+  cost: 12500 #Rimstation
   recipeUnlocks:
   - MagazineRifleUranium
   - MagazinePistolUranium
@@ -93,7 +93,7 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 1200 #Rimstation
+  cost: 800 #Rimstation
   recipeUnlocks:
   - Truncheon
   - TelescopicShield
@@ -108,7 +108,7 @@
     state: payload-explosive-armed
   discipline: Arsenal
   tier: 1
-  cost: 3000 #Rimstation
+  cost: 2500 #Rimstation
   recipeUnlocks:
   - SignallerAdvanced
   - SignalTrigger
@@ -126,7 +126,7 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 1000 #Rimstation
+  cost: 500 #Rimstation
   recipeUnlocks:
   - ClothingBackpackElectropack
 
@@ -140,7 +140,7 @@
     state: icon
   discipline: Arsenal
   tier: 2
-  cost: 7500 #Rimstation
+  cost: 5000 #Rimstation
   recipeUnlocks:
   - WeaponLaserCannon
   - WeaponMechCombatSolarisLaser # Goobstation
@@ -153,7 +153,7 @@
     state: icon
   discipline: Arsenal
   tier: 2
-  cost: 8000 #Rimstation
+  cost: 12000 #Rimstation
   recipeUnlocks:
   - WeaponXrayCannon
 
@@ -165,7 +165,7 @@
     state: full
   discipline: Arsenal
   tier: 2
-  cost: 5000 #Rimstation
+  cost: 4000 #Rimstation
   recipeUnlocks:
   - PowerCageRechargerCircuitboard
   - PowerCageSmall
@@ -189,7 +189,7 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 20000 #Rimstation
+  cost: 19000 #Rimstation
   recipeUnlocks:
   - WeaponAdvancedLaser
   - PortableRecharger
@@ -203,7 +203,7 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 7500 #Rimstation
+  cost: 3500 #Rimstation
   recipeUnlocks:
   - WeaponLaserSvalinn
 
@@ -215,7 +215,7 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 7500 #Rimstation
+  cost: 6500 #Rimstation
   recipeUnlocks:
   - GrenadeEMP
   - PowerCageHigh

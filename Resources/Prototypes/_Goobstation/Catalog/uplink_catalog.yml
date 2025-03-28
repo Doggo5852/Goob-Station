@@ -26,7 +26,7 @@
   description: uplink-signaller-desc
   productEntity: RemoteSignallerAdvanced
   cost:
-    Telecrystal: 8
+    Telecrystal: 2
   categories:
     -  UplinkDisruption
 
@@ -138,7 +138,7 @@
   icon: { sprite:  /Textures/_Goobstation/Objects/Weapons/Guns/Bow/hardlight_bow.rsi, state: icon }
   productEntity: BowHardlight
   cost:
-    Telecrystal: 75
+    Telecrystal: 105
   categories:
   - UplinkWeaponry
   conditions:
@@ -175,7 +175,7 @@
   description: uplink-anaconda-desc
   productEntity: WeaponPistolAnaconda
   cost:
-    Telecrystal: 40
+    Telecrystal: 50
   categories:
   - UplinkWeaponry
 
@@ -185,7 +185,7 @@
   description: uplink-bulk-mosin-desc
   productEntity: CrateSyndicateBulkMosin
   cost:
-    Telecrystal: 25
+    Telecrystal: 20
   categories:
     - UplinkWeaponry
 
@@ -318,7 +318,7 @@
   description: A very un-dangerous Lawset to use when you want to cause the A.I. to get brainrot, use when bored.
   productEntity: JermovCircuitBoard
   cost:
-    Telecrystal: 15
+    Telecrystal: 5
   categories:
     -  UplinkJob
   conditions:
@@ -333,7 +333,7 @@
   description: A lawset for when you wanna keep all the stations animals safe and protected.
   productEntity: ZooimovCircuitBoard
   cost:
-    Telecrystal: 15
+    Telecrystal: 5
   categories:
     -  UplinkJob
   conditions:
@@ -351,7 +351,7 @@
   description: uplink-advanced-combat-medipen-desc
   productEntity: AdvancedCombatMedipen
   cost:
-    Telecrystal: 28
+    Telecrystal: 25
   categories:
   - UplinkChemicals
 
@@ -365,7 +365,7 @@
   icon: { sprite: /Textures/Objects/Specific/Medical/syndi_implanter.rsi, state: implanter0 }
   productEntity: MindcontrolImplanter
   cost:
-    Telecrystal: 50 # Half the budget
+    Telecrystal: 25 # Half the budget
   categories:
     - UplinkImplants
   conditions:
@@ -394,7 +394,7 @@
   icon: { sprite: Clothing/Back/Satchels/satchel.rsi, state: icon }
   productEntity: ClothingSatchelSmuggler
   cost:
-    Telecrystal: 15
+    Telecrystal: 5
   categories:
   - UplinkDeception
 
@@ -404,7 +404,7 @@
   description: uplink-clothing-explosive-gloves-desc
   productEntity: ClothingHandsGlovesExplosiveShock
   cost:
-    Telecrystal: 10 # goob
+    Telecrystal: 5 # goob
   categories:
   - UplinkDeception
 
@@ -450,7 +450,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: slug }
   productEntity: MagazineShotgunSlug
   cost:
-    Telecrystal: 4 # So little total damage
+    Telecrystal: 2 # So little total damage
   categories:
   - UplinkAmmo
 

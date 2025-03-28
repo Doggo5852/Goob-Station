@@ -8,7 +8,7 @@
     state: seedextractor
   discipline: CivilianServices
   tier: 1
-  cost: 1000 #Rimstation
+  cost: 250 #Rimstation
   recipeUnlocks:
   - BorgModuleGardening
   - BorgModuleHarvesting
@@ -24,7 +24,7 @@
     state: hamtr
   discipline: CivilianServices
   tier: 1
-  cost: 1000 #Rimstation
+  cost: 250 #Rimstation
   recipeUnlocks:
   - HamtrHarness
   - HamtrLArm
@@ -44,7 +44,7 @@
     state: cameracase
   discipline: CivilianServices
   tier: 1
-  cost: 2500 #Rimstation
+  cost: 2000 #Rimstation
   recipeUnlocks:
   - SurveillanceCameraRouterCircuitboard
   - SurveillanceCameraWirelessRouterCircuitboard
@@ -62,7 +62,7 @@
     state: television
   discipline: CivilianServices
   tier: 1
-  cost: 5000 #Rimstation
+  cost: 3000 #Rimstation
   recipeUnlocks:
     - ComputerTelevisionCircuitboard
     - SynthesizerInstrument
@@ -78,7 +78,7 @@
     state: janitor
   discipline: CivilianServices
   tier: 1
-  cost: 2500 #Rimstation
+  cost: 2000 #Rimstation
   recipeUnlocks:
   - BorgModuleAdvancedCleaning
 
@@ -90,7 +90,7 @@
     state: display
   discipline: CivilianServices
   tier: 1
-  cost: 2000 #Rimstation
+  cost: 1500 #Rimstation
   recipeUnlocks:
   - FatExtractorMachineCircuitboard
   - BiofabricatorMachineCircuitboard
@@ -106,7 +106,7 @@
     state: astroice
   discipline: CivilianServices
   tier: 2
-  cost: 500 #Rimstation
+  cost: 250 #Rimstation
   recipeUnlocks:
   - FauxTileAstroGrass
   - FauxTileMowedAstroGrass
@@ -137,7 +137,7 @@
     state: advmop
   discipline: CivilianServices
   tier: 2
-  cost: 2000 #Rimstation
+  cost: 1500 #Rimstation
   recipeUnlocks:
   - AdvMopItem
   - MegaSprayBottle
@@ -150,7 +150,7 @@
     state: honker
   discipline: CivilianServices
   tier: 2
-  cost: 2500 #Rimstation
+  cost: 1000 #Rimstation
   recipeUnlocks:
   - HonkerHarness
   - HonkerLArm
@@ -170,7 +170,7 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 2500 #Rimstation
+  cost: 2000 #Rimstation
   recipeUnlocks:
   - WeaponSprayNozzle
   - ClothingBackpackWaterTank
@@ -183,7 +183,7 @@
     state: display
   discipline: CivilianServices
   tier: 2
-  cost: 10000 #Rimstation
+  cost: 5000 #Rimstation
   recipeUnlocks:
   - CargoTelepadMachineCircuitboard
 
