@@ -51,7 +51,7 @@
   - type: ItemToggle
   - type: ProximityBeeper
   - type: ProximityDetector
-    range: 20
+    range: 45
     criteria:
       components:
       - Anomaly
@@ -102,7 +102,7 @@
     minBeepInterval: 0.5
     maxBeepInterval: 0.5
   - type: ProximityDetector
-    range: 40
+    range: 60
 - type: entity
   id: AnomalyLocatorWide
   parent: [ AnomalyLocatorWideUnpowered, PowerCellSlotSmallItem ]
