@@ -4,7 +4,7 @@
     DiceBag: 6
     Paper: 8
     d6Dice: 8
-    ChessBoard: 1
+    ChessBoard: 4
     BackgammonBoard: 1
     ParchisBoard: 1
     CheckerBoard: 1
@@ -17,3 +17,7 @@
     MysteryFigureBox: 2
     BooksBag: 3
     CardBoxBlack: 3 # GoobStation
+    WeaponRifleFoam: 4 #Rimstation, carrying on with foam stuff
+    BoxDonkSoftBox: 4
+  contrabandInventory:
+    WeaponRifleFoamRifle: 2
