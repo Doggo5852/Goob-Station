@@ -93,7 +93,7 @@
         Radiation: 0.2
   - type: ClothingSpeedModifier
     walkModifier: 0.7
-    sprintModifier: 0.7
+    sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
@@ -155,7 +155,7 @@
         Caustic: 0.7
   - type: ClothingSpeedModifier
     walkModifier: 0.75
-    sprintModifier: 0.75
+    sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes: 
@@ -176,7 +176,7 @@
     lowPressureMultiplier: 1000
   - type: ClothingSpeedModifier
     walkModifier: 0.75
-    sprintModifier: 0.75
+    sprintModifier: 0.9
   - type: Armor
     modifiers:
       coefficients:
@@ -213,14 +213,14 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.6
+        Blunt: 0.4
         Slash: 0.6
-        Piercing: 0.6
+        Piercing: 0.4
         Caustic: 0.7
         Heat: 0.7 # Goobstation
   - type: ClothingSpeedModifier
     walkModifier: 0.75
-    sprintModifier: 0.75
+    sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes: 
@@ -488,7 +488,7 @@
         Caustic: 0.8
   - type: ClothingSpeedModifier
     walkModifier: 0.85
-    sprintModifier: 0.9
+    sprintModifier: 0.95
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes: 
